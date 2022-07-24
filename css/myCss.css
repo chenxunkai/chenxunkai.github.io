@@ -1,6 +1,9 @@
 /* 首页各模块页面背景半透明 */
 #recent-posts>.recent-post-item,
 #aside-content .card-widget {
-  /* background: rgba(0, 0, 0, .5); */
   opacity: .9;
+}
+
+#live2d-widget {
+  /* left: 0; */
 }
