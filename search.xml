@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>搭建GitHub图床</title>
+      <link href="/2023/06/09/%E5%85%B6%E4%BB%96/%E6%90%AD%E5%BB%BAGitHub%E5%9B%BE%E5%BA%8A/"/>
+      <url>/2023/06/09/%E5%85%B6%E4%BB%96/%E6%90%AD%E5%BB%BAGitHub%E5%9B%BE%E5%BA%8A/</url>
+      
+        <content type="html"><![CDATA[<h1 id="搭建GitHub-picgo图床"><a href="#搭建GitHub-picgo图床" class="headerlink" title="搭建GitHub+picgo图床"></a>搭建GitHub+picgo图床</h1><h2 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h2><ul><li>创建github新仓库，<code>new repository</code> </li></ul><p><img src="http://cdn.jsdelivr.net/gh/chenxunkai/myBlogResourse/images/202306091134072.png"></p><ul><li><p>创建后依据提示在本地建立连接远程库</p></li><li><p>创建token令牌，<code>setting</code> -&gt; <code>Developer settings</code> -&gt; <code>Personal access tokens</code></p></li></ul><p><img src="http://cdn.jsdelivr.net/gh/chenxunkai/myBlogResourse/images/202306091154043.png"></p><p><img src="http://cdn.jsdelivr.net/gh/chenxunkai/myBlogResourse/images/202306091154307.png" alt="1686282523907"></p><p><img src="http://cdn.jsdelivr.net/gh/chenxunkai/myBlogResourse/images/202306091154737.png" alt="1686282750920"></p><ul><li>设置好后，点击<code>Generate token</code>生成token，token待会用于配置picgo</li></ul><h1 id="PicGo"><a href="#PicGo" class="headerlink" title="PicGo"></a>PicGo</h1><ul><li><p>到github上下载picgo：<a href="https://github.com/Molunerfinn/PicGo/tree/v2.3.1">Molunerfinn/PicGo at v2.3.1 (github.com)</a></p></li><li><p>下载安装后，打开该软件时是不会跳出界面的，默认显示在右下角的任务栏上</p></li></ul><p><img src="http://cdn.jsdelivr.net/gh/chenxunkai/myBlogResourse/images/202306091205601.png"></p><ul><li>到插件设置上下载<code>github-plus</code>插件，用于同步上传删除github上的图片</li></ul><p><img src="http://cdn.jsdelivr.net/gh/chenxunkai/myBlogResourse/images/202306091207589.png" alt="1686283611576"></p><ul><li>配置githubPlus</li></ul><p><img src="http://cdn.jsdelivr.net/gh/chenxunkai/myBlogResourse/images/202306091211876.png" alt="1686283878401"></p><p>设置了自定义域名后，需在hosts(C:\Windows\System32\drivers\etc)上最后一行添加 <code>104.16.85.20 cdn.jsdelivr.net</code></p><ul><li>配置完成</li></ul><h1 id="Typora"><a href="#Typora" class="headerlink" title="# Typora"></a># Typora</h1><ul><li>使用Typora上传图片时设置：<code>格式</code> -&gt; <code>图像</code> -&gt; <code>全局图像设置</code></li></ul><p><img src="http://cdn.jsdelivr.net/gh/chenxunkai/myBlogResourse/images/202306091231594.png"></p><h1 id="上传错误"><a href="#上传错误" class="headerlink" title="上传错误"></a>上传错误</h1><p>若picgo出现上传错误，可从<code>picgo设置</code> -&gt; <code>设置日志文件</code> -&gt; <code>打开日志文件</code>中查看具体错误信息</p><ul><li>unable to verify the first certificate</li></ul><p>在日志上若出现此情况，则应该是使用github时需开启steam++来加速github，此时只要关闭加速即可。</p><ul><li>上传时出现 StatusCodeError: 422 的原因</li></ul><p>因picgo目前不支持上传同名文件到github上，所以上传同名时会报错，解决方案：可在Picgo 开启上传时重命名和时间戳重命名。</p><p><img src="http://cdn.jsdelivr.net/gh/chenxunkai/myBlogResourse/images/202306091227475.png" alt="1686284854238"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+          <category> 搭建GitHub图床 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GitHub图床 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>NodeJs基本知识</title>
       <link href="/2022/10/13/%E5%90%8E%E5%8F%B0/NodeJs%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86/"/>
       <url>/2022/10/13/%E5%90%8E%E5%8F%B0/NodeJs%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86/</url>
